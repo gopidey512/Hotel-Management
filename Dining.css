@@ -1,0 +1,120 @@
+/* Contact Us navbar start */
+
+#dining_navbar{
+    height: 60px;
+    width: auto;
+    background-color: #e8e5e2;
+    display: flex;
+}
+
+#dining_navbar_1{
+    height: 60px;
+    width: 800px;
+    /* border: 2px red solid; */
+    background-color: #e8e5e2;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.dining_items{
+    /* border: 2px red solid; */
+    background-color: #e8e5e2;
+    color: #272727;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+#dining_navbar_1 a{
+    text-decoration: none;
+}
+
+#dining_navbar_1 a span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* Contact Us navbar end */
+
+
+
+/* main content start */
+
+#dining_start{
+    height: 3100px;
+    width: auto;
+    /* border: 2px solid rgb(238, 19, 19); */
+    background-image: url(HOME_PAGE_IMAGE/Background\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#dining_start #subheader {
+    height: 120px;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+#dining_start #subheader #subheader_name{
+    height: 80px;
+    width: auto;
+    /* border: 1px solid red; */
+    font-size: 40px;
+    text-align: center;
+    padding-top:35px;
+    margin-top: 10px;
+}
+
+#dining_start>#image1{
+    height: 250px;
+    width: 1291px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dining_start>#image1>.img>img{
+    height: 245px;
+    width: 410px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+}
+
+#dining_start>.cont{
+    margin: 40px auto;
+    width: 1291px;
+    font-size: 20px;
+    word-spacing: 1px;
+    line-height: 30px;
+    /* border: 1px solid red; */
+}
+
+#dining_start>#image2{
+    height: 700px;
+    width: 1291px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dining_start>#image2>.img>img{
+    height: 690px;
+    width: 410px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+}
+
+
+/* main content end */

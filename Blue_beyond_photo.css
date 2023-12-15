@@ -1,0 +1,106 @@
+/* Gallery navbar start */
+
+#gallery_navbar{
+    height: 60px;
+    width: auto;
+    background-color: #e8e5e2;
+    display: flex;
+}
+
+#gallery_navbar_1{
+    height: 60px;
+    width: 800px;
+    /* border: 2px red solid; */
+    background-color: #e8e5e2;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.gallery_items{
+    /* border: 2px red solid; */
+    background-color: #e8e5e2;
+    color: #272727;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+#nav_items a{
+    text-decoration: none;
+}
+
+#gallery_navbar_1 a span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* Gallery navbar end */
+
+
+
+/* main content start */
+
+#gallery_blue_beyond_photos{
+    height: 2730px;
+    width: auto;
+    /* border: 2px solid rgb(36, 220, 101); */
+    background-image: url(HOME_PAGE_IMAGE/Background\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#gallery_blue_beyond_photos #subheader {
+    height: 120px;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+#gallery_blue_beyond_photos #subheader #subheader_name{
+    height: 80px;
+    width: auto;
+    /* border: 1px solid red; */
+    font-size: 40px;
+    text-align: center;
+    padding-top:40px;
+    margin-top: 10px;
+}
+
+#gallery_blue_beyond_photos #blue_beyond_photos{
+    height: 2535px;
+    width: 1070px;
+    /* border: 5px solid rgb(68, 51, 51); */
+    box-shadow: 0 0 20px red;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+#gallery_blue_beyond_photos #blue_beyond_photos .image{
+    height: 180px;
+    width: 320px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#gallery_blue_beyond_photos #blue_beyond_photos .image img{
+    height: 180px;
+    width: 320px;
+    /* border: 1px solid red; */
+}
+
+#gallery_blue_beyond_photos #blue_beyond_photos .image img:hover{
+    border:  4px solid rgb(92, 14, 6);
+    border-radius: 20px;
+    outline: none;
+}
+
+/* main content end */
+
+
+

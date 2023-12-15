@@ -1,0 +1,179 @@
+/* Contact Us navbar start */
+
+#facilities_navbar{
+    height: 60px;
+    width: auto;
+    background-color: #e8e5e2;
+    display: flex;
+}
+
+#facilities_navbar_1{
+    height: 60px;
+    width: 800px;
+    /* border: 2px red solid; */
+    background-color: #e8e5e2;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.facilities_items{
+    /* border: 2px red solid; */
+    background-color: #e8e5e2;
+    color: #272727;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+#facilities_navbar_1 a{
+    text-decoration: none;
+}
+
+#facilities_navbar_1 a span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* Contact Us navbar end */
+
+
+
+
+/* main content start */
+
+#facilities_start{
+    height: 980px;
+    width: auto;
+    /* border: 2px solid rgb(238, 19, 19); */
+    background-image: url(HOME_PAGE_IMAGE/Background\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#facilities_start #subheader {
+    height: 120px;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+#facilities_start #subheader #subheader_name{
+    height: 80px;
+    width: auto;
+    /* border: 1px solid red; */
+    font-size: 40px;
+    text-align: center;
+    padding-top:35px;
+    margin-top: 10px;
+}
+
+#facilities_start>#para{
+    height: 100px;
+    width: 1291px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+#facilities_image
+{
+    width: 1291px;
+    margin: 40px auto;
+}
+
+#img1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image1{
+    border: 5px solid black;
+}
+.image2{
+    border: 5px solid black;
+}
+
+#i1,#i2,#i3,#i4,#i5,#i6{
+    height: 170px;
+    width: 370px;
+    background-size: cover;
+}
+
+#i1{
+    background-image: url(Facilities_image/facilities_1.jpeg);
+}
+
+#i2{
+    background-image: url(Facilities_image/facilities_2.jpeg);
+}
+
+#i3{
+    background-image: url(Facilities_image/facilities_3.jpeg);
+}
+
+#i4{
+    background-image: url(Facilities_image/facilities_4.jpeg);
+}
+
+#i5{
+    background-image: url(Facilities_image/facilities_5.jpeg);
+}
+
+#i6{
+    background-image: url(Facilities_image/facilities_6.jpeg);
+}
+
+#nm1,#nm2,#nm3,#nm4,#nm5,#nm6{
+    height: 50px;
+    width: 370px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #8a0f0f;
+    color: #fac70b;
+}
+
+.image1,.image2,#i1,#i2,#i3,#i4,#i5,#i6{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.image1,.image2,#nm1,#nm2,#nm3,#nm4,#nm5,#nm6{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#facilities_start>a>#book_hotel1{
+    height: 40px;
+    width: 150px;
+    margin: 80px auto;
+    margin-right: 120px;
+    background-color: #B9666E;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+#facilities_start>a>#book_hotel1:hover{
+    background-color: #272727;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* main content end */

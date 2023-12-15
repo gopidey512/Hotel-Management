@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{ 
+    background: rgb(231,72,155);
+    background: linear-gradient(90deg, rgba(231,72,155,1) 0%, rgba(0,255,192,1) 100%);
+
+}
+
+
+
+/* Scroll bar start */
+
+  *::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  *::-webkit-scrollbar-track {
+    background-color: rgb(19, 241, 82);
+}
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #e21c30;
+    border-radius: 20px;
+}
+
+/* Scroll bar end */
+
+
+/* Navbar Start */
+
+nav{
+    height: 88px;
+    width: auto;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    box-shadow: rgba(39, 39, 39, 0.2) 0px 5px 4px 0px;
+    position: sticky;
+    display: flex;
+    top: 0px;
+    z-index: 1;
+    /* border: 2px solid red; */
+
+}
+
+#hotel_logo{
+    height: 88px;
+    width: 230px;
+    margin-left: 60px;
+}
+
+#hotel_logo:hover{
+    cursor: pointer;
+}
+
+#hotel_logo>img{
+    height: 80px;
+    width: 220px;
+}
+
+
+#Login_signup_bar{
+    height: 60px;
+    width: 250px;
+    /* border: 2px solid red; */
+    margin-top: 13px;
+    margin-left: 920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Login_signup_bar a #signup{
+    height: 40px;
+    width: 100px;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(83, 228, 83),yellow);
+    box-shadow: 0 0 10px black;
+}
+
+#Login_signup_bar a #login{
+    height: 40px;
+    width: 100px;
+    border: 1px solid blue;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(83, 228, 83),yellow);
+    box-shadow: 0 0 10px black;
+}
+
+#Login_signup_bar>a>div:hover{
+    color: rgb(6, 54, 246);
+}
+/* Navbar End */
+
+
+/* main content start */
+
+#main_book_confirm{
+    height: 618px;
+    width: auto;
+    background-image: linear-gradient(rgb(92, 220, 92),rgb(238, 87, 112));
+}
+
+#aa{
+    height: 200px;
+    width: auto;
+}
+
+#main_book_confirm>#a{
+    height: 60px;
+    width: 400px;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+}
+/* main content end */
